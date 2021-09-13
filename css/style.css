@@ -2,8 +2,22 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+/* header styles  */
+.menu ul{list-style: none;}
+.menu ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
 .search-box .form-control {
   display: inline-block;
+}
+button#search-btn {
+  border-radius: 30px;
 }
 .border-radius.btn{
   border-radius: 0;
@@ -12,6 +26,9 @@ body {
 .border-radius.btn.btn-dark:hover{
   background-color: white;
     color: black;
+}
+span i{
+  color: orange;
 }
 /* .search-field {
   border: none;
