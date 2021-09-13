@@ -2,7 +2,9 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
-/* header styles  */
+/*
+------- header styles 
+------------------------------- */
 .menu ul{list-style: none;}
 .menu ul li{
     display: inline-block;
@@ -13,6 +15,11 @@ body {
     font-size: 18px;
     color: #000;
 }
+
+/* 
+----------
+search box and button styles 
+-----------------------------------*/
 .search-box .form-control {
   display: inline-block;
 }
@@ -30,24 +37,11 @@ button#search-btn {
 span i{
   color: orange;
 }
-/* .search-field {
-  border: none;
-  border-radius: 50px;
-  padding: 5px;
-  outline: none;
-}
-.search-field:hover {
-  outline: none;
-  border: none;
-}
-.search-box {
-  border: 1px solid rgb(3, 118, 211);
-  width: 281px;
-  border-radius: 5px;
-  margin: auto;
-  margin-top: 50px;
-  border-right: none;
-} */
+
+/* 
+---------
+products grid styles
+----------------------------  */
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -74,7 +68,6 @@ span i{
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -91,7 +84,6 @@ span i{
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
